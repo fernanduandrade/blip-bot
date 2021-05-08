@@ -1,0 +1,20 @@
+{
+  "name": "takenet_test",
+  "version": "1.0.0",
+  "description": "Bot inteligente criado na plataforma blip",
+  "main": "index.js",
+  "author": "Luiz Fernando de Andrade Abreu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./api.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  }  
+}
