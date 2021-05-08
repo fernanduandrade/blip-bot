@@ -4,7 +4,7 @@ Objetivo é criar um chatbot utilizando a plataforma Blip e que retorne os cinco
 
 ## Sobre o teste
 
-A api criada para ser consumida na plataforma Blip foi desenvolvida em Express.js para rotas e Node.js como servidor web. O deploy foi realizado na plataforma Heroku.
+A api criada para ser consumida na plataforma Blip foi desenvolvida em Express.js para rotas e Node.js como servidor web. O deploy foi realizado na plataforma Heroku. [Clique aqui!](https://api-repositories.herokuapp.com/repos/) para uma visualização dos dados.
 
 ## Como rodar localmente
 
