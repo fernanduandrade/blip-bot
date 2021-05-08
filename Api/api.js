@@ -5,6 +5,7 @@ import { filterByLanguage } from './utils/filterByLanguage.js';
 import { findOldest } from './utils/findOldest.js';
 
 const app = express();
+const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/repos/', async(req, res) => {
@@ -29,6 +30,6 @@ app.get('/repos/', async(req, res) => {
     
 });
 
-app.listen(8000, ()=> {
-    console.log(`Running!`);
+app.listen(port, ()=> {
+    console.log(`Running on port ${port}!`);
 })
